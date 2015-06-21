@@ -12,4 +12,11 @@ Register for a [The Echo Nest API](http://developer.echonest.com/) key, and set 
 
 ## Usage
 
+### From the command line
+
     python rhythmstring.py spotify:track:7HrzErXq3TsKOY1gmdIShB
+
+### From python
+
+    import rhythmstring
+    rhythm = rhythmstring.get_by_spotify_track_uri('spotify:track:7HrzErXq3TsKOY1gmdIShB')
